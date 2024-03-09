@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-   int N, M;
+   int N, M, V=1;
    do
    {
       cout << "Enter your N, M(0 < N < 10,  1 <= M <= 10): ";
@@ -13,12 +13,11 @@ int main()
   {if (i>0)
   {
    for (size_t j = 0; j < i; j++)
-   {
-      cout<<N<<",";
-      N=N*N;
+   {  V=V*N;
+      cout<<","<<V;
    }
   }else{
-   cout<<"1,";
+   cout<<"1";
   }
   }
   cout<< endl;
