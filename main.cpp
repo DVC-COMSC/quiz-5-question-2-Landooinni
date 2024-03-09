@@ -8,7 +8,7 @@ int main()
    {
       cout << "Enter your N, M(0 < N < 10,  1 <= M <= 10): ";
       cin >> N >> M;
-   } while (!(0 < N < 10 && 1 <= M <= 10));
+   } while (0 >= N >= 10 && 1 > M > 10);
    
    cout << "Enter your N, M(0 < N < 10,  1 <= M <= 10): ";
    cin >> N >> M;
